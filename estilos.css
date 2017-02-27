@@ -5,11 +5,13 @@
 }
 
 #c-slider{
+    top: 30px;
     margin: auto;
+    height: 400px;   
     width: 85%;
     max-width: 900px;
     position: relative;
-    
+    overflow: hidden;
     box-shadow: 0 0 0 10px #000,
                 0 15px 50px;
 }
