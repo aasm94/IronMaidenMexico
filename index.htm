@@ -22,7 +22,15 @@
             color: white;
         }
         th:hover{
-            background-color: dimgray;
+            
+            -webkit-filter: blur(1px);
+            filter: blur(1px);
+            cursor: pointer;
+            
+        }
+        
+        #menu{
+            background-image: url(metal2.jpg);
         }
     </style>
     
@@ -32,7 +40,7 @@
 <body background="ladrillo.jpg">
     <img id="portada" src="Banner%20IMM1.jpg" alt="Iron Maiden México">
     
-    <table BGColor ="black" width="90%"	border="3" >
+    <table id=menu width="90%"	border="3" >
         <tr>
             <th> HOME</th>
             <th>NOTICIAS</th>
