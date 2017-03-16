@@ -2,32 +2,10 @@
 <html lang="es-mx">
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="css/estilos.css">
 <script src="jquery-3.1.1.min.js" type="text/javascript"></script>
 <title>DISCOGRAFIA</title>   
     <style>
-        #portada{
-            width: 90%;
-            height: 200px;
-            margin-left: 5%;
-            margin-right: 5%;
-            
-        }
-		table{
-		margin-left: 5%;
-            margin-right: 5%;}
-        th, tr{
-            color: white;
-            border: 2px solid gray;
-            color: white;
-        }
-        th:hover{
-            
-            -webkit-filter: blur(1px);
-            filter: blur(1px);
-            cursor: pointer;
-            
-        }
         
         #menu{
             background-image: url(Imagenes/metal2.jpg);
@@ -37,51 +15,83 @@
             background-image: url(imagenes/ladrillo.jpg);
             background-attachment: fixed;
             background-repeat: no-repeat;
-                
+        }
+        #discos{
+            margin: auto;
+            border-spacing: 10px;
+            
+            
+        }
+        pre{
+            font-size: 16px;
+            font-family: verdana;
+            text-align: left;
+        }
+        h4{
+            text-align: center;
+        }
+        a:link{
+            text-decoration: none;
+             
+        }
+        td:hover{
+             -webkit-filter: blur(1px);
+            filter: blur(1px);
         }
         
         
+        
+        
     </style>
-    
-    
-</head>
+ </head>
 
 <body>
     <img id="portada" src="Imagenes/bannerIMM.jpg" alt="Iron Maiden México">
     
-    <table id=menu width="90%"	border="3" >
+    <table id=menu width="90%"	border="3">
         <tr>
             <th> <a href="index.htm"> HOME</a</th>
             <th>NOTICIAS</th>
             <th><A HREF ="discografia.htm">DISCOGRAFIA</a></th> 
             <th>MERCANCIA</th>
             <th>CONTACTO</th>
-        
-		</tr>
+        </tr>
     </table>
+    
 	<br><br><br>
-	<table  align="center" border=0 cellspacing=1 cellpadding=1>
-    <td><A HREF ="IronMaiden.html">
-	<table  align="center" border=0 cellspacing=1 cellpadding=1  BACKGROUND="Imagenes/1.jpg" WIDTH ="200" HEIGHT="200"> </a>
-	</table>
-	</td>
+	
+	
+	<table id="discos">
+    <tr>
     <td>
-	<table BACKGROUND="Imagenes/ladrillo2.jpg" align="center" border=0  cellspacing=1 cellpadding=1   WIDTH ="400" HEIGHT="200"> </a>
-	<td>
+    <a href="IronMaiden.html"><img src="imagenes/1.jpg"></a>
+	</td>
+        
+    <td style="background: url(Imagenes/ladrillo2.jpg)" width=350>
+	<a href="IronMaiden.html">
 	<font color ="black">
 	<h4>IRON MAIDEN (14 Abril 1980) </h4>
-	<OL>
-		<LI> Prowler
-		<LI> Remember Tomorrow
-		<LI> Running Free
-		<LI> Phantom of the Opera
-		<LI> Transylvania (Instrumental)
-		<LI> Strange World
-		<LI> Charlotte the Harlot
-		<LI> Iron Maiden
-	</OL>
-	</font> </td> </table> </td> </tr>
+	<pre>
+Prowler
+Remember Tomorrow
+Running Free
+Phantom of the Opera
+Transylvania (Instrumental)
+Strange World
+Charlotte the Harlot
+Iron Maiden
+	</pre>
+	</font> 
+	</a>
+	</td>
+	</tr> 
+	 
+	</table>
+	 
+	
+	
 	</table> 
+	
 	<table  align="center" border=0 cellspacing=1 cellpadding=1>
     <td>
 	<table  align="center" border=0 cellspacing=1 cellpadding=1  BACKGROUND="Imagenes/2.jpg" WIDTH ="200" HEIGHT="200">
