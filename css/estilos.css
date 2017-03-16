@@ -63,3 +63,30 @@ section {
 #btn-next{
     right: 10px;
 }
+
+#portada{
+            width: 90%;
+            height: 200px;
+            margin-left: 5%;
+            margin-right: 5%;
+            
+        }
+		table{
+		margin-left: 5%;
+            margin-right: 5%;}
+        th, tr{
+            color: white;
+            border: 2px solid gray;
+            color: white;
+        }
+        th:hover{
+            
+            -webkit-filter: blur(1px);
+            filter: blur(1px);
+            cursor: pointer;
+            
+        }
+        
+        
+        
+       
