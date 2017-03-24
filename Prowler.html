@@ -6,6 +6,12 @@
 <script src="jquery-3.1.1.min.js" type="text/javascript"></script>
 <title>Prowler</title>   
     <style>
+        body{
+             background-image: url(Imagenes/ladrillo.jpg);
+             background-attachment: fixed;
+             background-repeat: no-repeat;
+         }
+        
         #portada{
             width: 90%;
             height: 200px;
@@ -32,23 +38,65 @@
         #menu{
             background-image: url(imagenes/metal2.jpg);
         }
+        
+         #discos, #letras{
+             margin: auto;
+             border-spacing: 10px;
+             
+             
+         }
+        
+         li{
+             text-align: left;
+             color: black;
+             
+         }
+         ol{
+             margin-left: 30px;
+             
+         }
+         #linkMenu{
+             color: white;
+         }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        h4{
+            color: black;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: black;
+        }
+        pre{
+            text-align: left;
+            color: black;
+            margin-left: 10px;
+            font-size: 15px;
+            font-family: verdana;
+            
+        }
+        
     </style>
     
     
 </head>
 
-<body background="Imagenes/ladrillo.jpg">
+<body>
     <img id="portada" src="Imagenes/bannerIMM.jpg" alt="Iron Maiden México">
         <table id=menu width="90%"	border="3" >
         <tr>
             <th> <a href="index.htm"> HOME</a</th>
-            <th>NOTICIAS></th>
+            <th>NOTICIAS</th>
             <th><A HREF ="discografia.htm">DISCOGRAFIA</a></th> 
             <th>MERCANCIA</th>
             <th>CONTACTO</th>
         
 		</tr>
     </table>
+    <!--
 		<table  align="center" border=0 cellspacing=1 cellpadding=1>
 		    <td><A HREF ="IronMaiden.html">
 			<br><br><br><br>
@@ -57,7 +105,9 @@
 	</td>
     <td>
 	<br><br><br>
-	<table  BACKGROUND="Imagenes/ladrillo2.jpg" align="center" border=0  cellspacing=1 cellpadding=1   WIDTH ="350" HEIGHT="200"> </a>
+	
+	
+	<table  id=discos> </a>
 	<td>
 	<font color ="black">
 	<h4>IRON MAIDEN (14 Abril 1980) </h4>
@@ -73,63 +123,81 @@
 	</OL>
 	</font> </td> </table> </td> </tr>
 	</table> 
-	<br><br><br><br>
-	<table  align="center" border=0 cellspacing=1 cellpadding=1>
-    <td>
-	<table  align="center" border=0 cellspacing=1 cellpadding=1  BACKGROUND="Imagenes/ladrillo2.jpg" WIDTH ="400" HEIGHT="450">
-	<tr>
-	<td>
-	<P ALIGN=center>
-	<font color ="black"> 
-"Prowler"	 <br>
-Walking through the city, looking oh so pretty,<br>
-I've just got to find my way.<br>
-See the ladies flashing. All there legs and lashes.<br>
-I've just got to find my way.<br>
+	-->
+	
 <br>
-Well you see me crawling through the bushes with it open wide.<br>
-What you seeing girl?<br>
-Can't you believe that feeling, can't you believe it,<br>
-Can't you believe your eyes?<br>
-It's the real thing girl.<br>
-<br>
-Got me feeling myself and reeling around,<br>
-Got me talking but feel like walking around.<br>
-Got me feeling myself and reeling a...<br>
-Got me talking but nothing's with me...<br>
-Got me feeling myself and reeling around.
-  </font></p></td></tr></table>
-	</td>
-    <td>
-	<table  align="center" border=0  cellspacing=1 cellpadding=1 BACKGROUND="Imagenes/ladrillo2.jpg" WIDTH ="400" HEIGHT="450">
-	<tr>
-	<td> 
-	<P ALIGN=center>
-	<font color ="black"> 
-	"Merodeador"<br> 
-
-Caminando a traves de la ciudad, luce tan hermosa <br>
-Sólo tengo que encontrar mi camino <br>
-Mira las mujeres brillando <br>
-Todas las piernas y pestañas <br>
-Solo tengo que encontrar mi camino<br> 
-<br>
-Bueno, me viste arañando por los matorrales con el camino abierto <br>
-Qué estás mirando, chica? <br>
-No puedes creer lo que sientes, no puedes creer <br>
-No puedes creer en tus ojos? <br>
-Es la verdad, mujer <br>
-<br>
-Estoy sintiendome a mi mismo y tambaleando <br>
-Estoy hablando, pero me siento caminando <br>
-Estoy sintiendome a mi mismo y tambaleando <br>
-Estoy hablando, pero nada conmigo <br>
-Estoy sintiendome a mi mismo y tambaleando </td>
-	</p> </font> </tr> </table> </td></tr></table> 
+	<table id="discos">
+      <tr>
+      <td>
+       <img src="imagenes/discos/1.jpg" alt="Iron Maiden">
+        <td style="background: url(Imagenes/ladrillo2.jpg)" width=350 height=200>
+ 	 	<h4>IRON MAIDEN (14 Abril 1980) </h4>
+ 	<ol>
+         <li>Prowler</li>
+         <li>Remember Tomorrow</li>
+         <li>Running Free</li>
+         <li>Phantom of the Opera</li>
+         <li>Transylvania (Instrumental)</li>
+         <li>Strange World</li>
+         <li>Charlotte the Harlot</li>
+         <li>Iron Maiden</li>
+ 	</ol>
+ 	</td>
+ 	</tr> 
+ 	</table>
+	
 	<br><br>
-<table  align="center" border=0  cellspacing=1 cellpadding=1 BACKGROUND="Imagenes/ladrillo2.jpg" WIDTH ="1000" HEIGHT="200">
+		
+	<table id="letras">
+    <tr>
+    <td style="background: url(Imagenes/ladrillo2.jpg)">
+	<pre>
+<h2>"Prowler"</h2>	 
+Walking through the city, looking oh so pretty,
+I've just got to find my way.
+See the ladies flashing. All there legs and lashes.
+I've just got to find my way.
 
-</table>
+Well you see me crawling through the bushes with it open wide.
+What you seeing girl?
+Can't you believe that feeling, can't you believe it,
+Can't you believe your eyes?
+It's the real thing girl.
+
+Got me feeling myself and reeling around,
+Got me talking but feel like walking around.
+Got me feeling myself and reeling a...
+Got me talking but nothing's with me...
+Got me feeling myself and reeling around.
+</pre> 
+</td>
+<td style="background: url(Imagenes/ladrillo2.jpg)"> 
+<pre>
+<h2>"Merodeador"</h2>
+Caminando a traves de la ciudad, luce tan hermosa 
+Sólo tengo que encontrar mi camino 
+Mira las mujeres brillando 
+Todas las piernas y pestañas 
+Solo tengo que encontrar mi camino
+
+Bueno, me viste arañando por los matorrales con el camino abierto 
+Qué estás mirando, chica? 
+No puedes creer lo que sientes, no puedes creer 
+No puedes creer en tus ojos? 
+Es la verdad, mujer 
+
+Estoy sintiendome a mi mismo y tambaleando 
+Estoy hablando, pero me siento caminando 
+Estoy sintiendome a mi mismo y tambaleando 
+Estoy hablando, pero nada conmigo 
+Estoy sintiendome a mi mismo y tambaleando 
+</pre>
+	</td>
+	</tr>
+	</table> 
+	
+	<br><br>
+
 <P ALIGN=center>
 <iframe width="560"  height="315" src="https://www.youtube.com/embed/4Kmn_9CILtM" frameborder="0" allowfullscreen></iframe></p>
 	
